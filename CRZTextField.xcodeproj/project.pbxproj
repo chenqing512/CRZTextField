@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		617749BD2079ABA900A569E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 617749BC2079ABA900A569E8 /* AppDelegate.m */; };
+		617749C02079ABA900A569E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617749BF2079ABA900A569E8 /* ViewController.m */; };
+		617749C32079ABA900A569E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617749C12079ABA900A569E8 /* Main.storyboard */; };
+		617749C52079ABA900A569E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617749C42079ABA900A569E8 /* Assets.xcassets */; };
+		617749C82079ABA900A569E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617749C62079ABA900A569E8 /* LaunchScreen.storyboard */; };
+		617749CB2079ABA900A569E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 617749CA2079ABA900A569E8 /* main.m */; };
+		617749D52079ABA900A569E8 /* CRZTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617749D42079ABA900A569E8 /* CRZTextFieldTests.m */; };
+		617749E02079ABA900A569E8 /* CRZTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617749DF2079ABA900A569E8 /* CRZTextFieldUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		617749D12079ABA900A569E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 617749B02079ABA900A569E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 617749B72079ABA900A569E8;
+			remoteInfo = CRZTextField;
+		};
+		617749DC2079ABA900A569E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 617749B02079ABA900A569E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 617749B72079ABA900A569E8;
+			remoteInfo = CRZTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		617749B82079ABA900A569E8 /* CRZTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRZTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		617749BB2079ABA900A569E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		617749BC2079ABA900A569E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		617749BE2079ABA900A569E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		617749BF2079ABA900A569E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		617749C22079ABA900A569E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		617749C42079ABA900A569E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		617749C72079ABA900A569E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		617749C92079ABA900A569E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617749CA2079ABA900A569E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		617749D02079ABA900A569E8 /* CRZTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRZTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		617749D42079ABA900A569E8 /* CRZTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRZTextFieldTests.m; sourceTree = "<group>"; };
+		617749D62079ABA900A569E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617749DB2079ABA900A569E8 /* CRZTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRZTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		617749DF2079ABA900A569E8 /* CRZTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRZTextFieldUITests.m; sourceTree = "<group>"; };
+		617749E12079ABA900A569E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		617749B52079ABA900A569E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617749CD2079ABA900A569E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617749D82079ABA900A569E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		617749AF2079ABA900A569E8 = {
+			isa = PBXGroup;
+			children = (
+				617749BA2079ABA900A569E8 /* CRZTextField */,
+				617749D32079ABA900A569E8 /* CRZTextFieldTests */,
+				617749DE2079ABA900A569E8 /* CRZTextFieldUITests */,
+				617749B92079ABA900A569E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		617749B92079ABA900A569E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				617749B82079ABA900A569E8 /* CRZTextField.app */,
+				617749D02079ABA900A569E8 /* CRZTextFieldTests.xctest */,
+				617749DB2079ABA900A569E8 /* CRZTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		617749BA2079ABA900A569E8 /* CRZTextField */ = {
+			isa = PBXGroup;
+			children = (
+				617749BB2079ABA900A569E8 /* AppDelegate.h */,
+				617749BC2079ABA900A569E8 /* AppDelegate.m */,
+				617749BE2079ABA900A569E8 /* ViewController.h */,
+				617749BF2079ABA900A569E8 /* ViewController.m */,
+				617749C12079ABA900A569E8 /* Main.storyboard */,
+				617749C42079ABA900A569E8 /* Assets.xcassets */,
+				617749C62079ABA900A569E8 /* LaunchScreen.storyboard */,
+				617749C92079ABA900A569E8 /* Info.plist */,
+				617749CA2079ABA900A569E8 /* main.m */,
+			);
+			path = CRZTextField;
+			sourceTree = "<group>";
+		};
+		617749D32079ABA900A569E8 /* CRZTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				617749D42079ABA900A569E8 /* CRZTextFieldTests.m */,
+				617749D62079ABA900A569E8 /* Info.plist */,
+			);
+			path = CRZTextFieldTests;
+			sourceTree = "<group>";
+		};
+		617749DE2079ABA900A569E8 /* CRZTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				617749DF2079ABA900A569E8 /* CRZTextFieldUITests.m */,
+				617749E12079ABA900A569E8 /* Info.plist */,
+			);
+			path = CRZTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		617749B72079ABA900A569E8 /* CRZTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617749E42079ABA900A569E8 /* Build configuration list for PBXNativeTarget "CRZTextField" */;
+			buildPhases = (
+				617749B42079ABA900A569E8 /* Sources */,
+				617749B52079ABA900A569E8 /* Frameworks */,
+				617749B62079ABA900A569E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRZTextField;
+			productName = CRZTextField;
+			productReference = 617749B82079ABA900A569E8 /* CRZTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		617749CF2079ABA900A569E8 /* CRZTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617749E72079ABA900A569E8 /* Build configuration list for PBXNativeTarget "CRZTextFieldTests" */;
+			buildPhases = (
+				617749CC2079ABA900A569E8 /* Sources */,
+				617749CD2079ABA900A569E8 /* Frameworks */,
+				617749CE2079ABA900A569E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				617749D22079ABA900A569E8 /* PBXTargetDependency */,
+			);
+			name = CRZTextFieldTests;
+			productName = CRZTextFieldTests;
+			productReference = 617749D02079ABA900A569E8 /* CRZTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		617749DA2079ABA900A569E8 /* CRZTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617749EA2079ABA900A569E8 /* Build configuration list for PBXNativeTarget "CRZTextFieldUITests" */;
+			buildPhases = (
+				617749D72079ABA900A569E8 /* Sources */,
+				617749D82079ABA900A569E8 /* Frameworks */,
+				617749D92079ABA900A569E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				617749DD2079ABA900A569E8 /* PBXTargetDependency */,
+			);
+			name = CRZTextFieldUITests;
+			productName = CRZTextFieldUITests;
+			productReference = 617749DB2079ABA900A569E8 /* CRZTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		617749B02079ABA900A569E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Qing Chen";
+				TargetAttributes = {
+					617749B72079ABA900A569E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					617749CF2079ABA900A569E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 617749B72079ABA900A569E8;
+					};
+					617749DA2079ABA900A569E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 617749B72079ABA900A569E8;
+					};
+				};
+			};
+			buildConfigurationList = 617749B32079ABA900A569E8 /* Build configuration list for PBXProject "CRZTextField" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 617749AF2079ABA900A569E8;
+			productRefGroup = 617749B92079ABA900A569E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				617749B72079ABA900A569E8 /* CRZTextField */,
+				617749CF2079ABA900A569E8 /* CRZTextFieldTests */,
+				617749DA2079ABA900A569E8 /* CRZTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		617749B62079ABA900A569E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617749C82079ABA900A569E8 /* LaunchScreen.storyboard in Resources */,
+				617749C52079ABA900A569E8 /* Assets.xcassets in Resources */,
+				617749C32079ABA900A569E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617749CE2079ABA900A569E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617749D92079ABA900A569E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		617749B42079ABA900A569E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617749C02079ABA900A569E8 /* ViewController.m in Sources */,
+				617749CB2079ABA900A569E8 /* main.m in Sources */,
+				617749BD2079ABA900A569E8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617749CC2079ABA900A569E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617749D52079ABA900A569E8 /* CRZTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		617749D72079ABA900A569E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617749E02079ABA900A569E8 /* CRZTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		617749D22079ABA900A569E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 617749B72079ABA900A569E8 /* CRZTextField */;
+			targetProxy = 617749D12079ABA900A569E8 /* PBXContainerItemProxy */;
+		};
+		617749DD2079ABA900A569E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 617749B72079ABA900A569E8 /* CRZTextField */;
+			targetProxy = 617749DC2079ABA900A569E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		617749C12079ABA900A569E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617749C22079ABA900A569E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		617749C62079ABA900A569E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617749C72079ABA900A569E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		617749E22079ABA900A569E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		617749E32079ABA900A569E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		617749E52079ABA900A569E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRZTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiguo.CRZTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		617749E62079ABA900A569E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRZTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiguo.CRZTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		617749E82079ABA900A569E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRZTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiguo.CRZTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRZTextField.app/CRZTextField";
+			};
+			name = Debug;
+		};
+		617749E92079ABA900A569E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRZTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiguo.CRZTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRZTextField.app/CRZTextField";
+			};
+			name = Release;
+		};
+		617749EB2079ABA900A569E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRZTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiguo.CRZTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRZTextField;
+			};
+			name = Debug;
+		};
+		617749EC2079ABA900A569E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRZTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = weiguo.CRZTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CRZTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		617749B32079ABA900A569E8 /* Build configuration list for PBXProject "CRZTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617749E22079ABA900A569E8 /* Debug */,
+				617749E32079ABA900A569E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617749E42079ABA900A569E8 /* Build configuration list for PBXNativeTarget "CRZTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617749E52079ABA900A569E8 /* Debug */,
+				617749E62079ABA900A569E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617749E72079ABA900A569E8 /* Build configuration list for PBXNativeTarget "CRZTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617749E82079ABA900A569E8 /* Debug */,
+				617749E92079ABA900A569E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617749EA2079ABA900A569E8 /* Build configuration list for PBXNativeTarget "CRZTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617749EB2079ABA900A569E8 /* Debug */,
+				617749EC2079ABA900A569E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 617749B02079ABA900A569E8 /* Project object */;
+}
