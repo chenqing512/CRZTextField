@@ -15,6 +15,8 @@
 		617749CB2079ABA900A569E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 617749CA2079ABA900A569E8 /* main.m */; };
 		617749D52079ABA900A569E8 /* CRZTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617749D42079ABA900A569E8 /* CRZTextFieldTests.m */; };
 		617749E02079ABA900A569E8 /* CRZTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 617749DF2079ABA900A569E8 /* CRZTextFieldUITests.m */; };
+		617749F62079C25600A569E8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617749F42079C25600A569E8 /* DetailViewController.m */; };
+		617749F72079C25600A569E8 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 617749F52079C25600A569E8 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		617749DB2079ABA900A569E8 /* CRZTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRZTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		617749DF2079ABA900A569E8 /* CRZTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRZTextFieldUITests.m; sourceTree = "<group>"; };
 		617749E12079ABA900A569E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617749F32079C25600A569E8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		617749F42079C25600A569E8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		617749F52079C25600A569E8 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				617749BC2079ABA900A569E8 /* AppDelegate.m */,
 				617749BE2079ABA900A569E8 /* ViewController.h */,
 				617749BF2079ABA900A569E8 /* ViewController.m */,
+				617749F32079C25600A569E8 /* DetailViewController.h */,
+				617749F42079C25600A569E8 /* DetailViewController.m */,
+				617749F52079C25600A569E8 /* DetailViewController.xib */,
 				617749C12079ABA900A569E8 /* Main.storyboard */,
 				617749C42079ABA900A569E8 /* Assets.xcassets */,
 				617749C62079ABA900A569E8 /* LaunchScreen.storyboard */,
@@ -241,6 +249,7 @@
 				617749C82079ABA900A569E8 /* LaunchScreen.storyboard in Resources */,
 				617749C52079ABA900A569E8 /* Assets.xcassets in Resources */,
 				617749C32079ABA900A569E8 /* Main.storyboard in Resources */,
+				617749F72079C25600A569E8 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +277,7 @@
 				617749C02079ABA900A569E8 /* ViewController.m in Sources */,
 				617749CB2079ABA900A569E8 /* main.m in Sources */,
 				617749BD2079ABA900A569E8 /* AppDelegate.m in Sources */,
+				617749F62079C25600A569E8 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
